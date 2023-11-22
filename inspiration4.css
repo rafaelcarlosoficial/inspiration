@@ -50,6 +50,7 @@ a, li {
 }
 img {
     height: auto;
+    margin: 1rem;
 }
 body,html {
     font-family: 'Din';
@@ -1249,7 +1250,7 @@ header nav {
     
     @keyframes openMenuAnimation {
         from {
-            transform: translateX(-35%);
+            transform: translateX(10%);
         }
 
         to {
@@ -1263,7 +1264,7 @@ header nav {
         }
 
         to {
-            transform: translateX(-35%);
+            transform: translateX(10%);
         }
 
     }
@@ -1273,6 +1274,13 @@ header nav {
         display: flex;
         animation: openMenuAnimation 0.3s ease;
         transform: translateX(-94%);
+        z-index: 2;
+    }
+    
+    .navList.disabled {
+        display: flex;
+        animation: closeMenuAnimation 0.3s ease;
+        transform: translateX(10%);
         z-index: 2;
     }
     

@@ -1,4 +1,5 @@
-
+//  let closeAnimation = false;
+ let clickCounter = 0;
 //menu
 class MobileNavbar {
     constructor(mobileMenu, navList, navLinks) {
@@ -6,27 +7,37 @@ class MobileNavbar {
       this.navList = document.querySelector(navList);
       this.navLinks = document.querySelectorAll(navLinks);
       this.activeClass = "active";
-
+      this.disableClass = "disabled";
       this.handleClick = this.handleClick.bind(this);
     }
-    
+    // directLinksOnMobile(){
+    //   this.
+    // }
+    closeMenu(){
+      this.navList.classList.remove(this.activeClass)
+      this.navList.classList.toggle(this.disableClass);
+    }
+
     handleClick() {
-      this.navList.classList.toggle(this.activeClass);
       this.mobileMenu.classList.toggle(this.activeClass);
+      clickCounter++;
+      // this.navLinks.addEventListener('click', this.closeMenu);
+
+      if(clickCounter % 2) {
+        this.closeMenu()
+      } else {
+        this.navList.classList.remove(this.disableClass);
+        this.navList.classList.toggle(this.activeClass);
+      }
     }
 
     addClickEvent() {
+      clickCounter++;
       this.mobileMenu.addEventListener("click", this.handleClick);
     }
 
-    closeMenu() {
-      const closeMenu = document.querySelector('.mobileMenu.active')
-      closeMenu.addEventListener
-    }
     init() {
-      if (this.mobileMenu === '.mobileMenu.active') {
-        this.closeMenu()
-      } else {
+      if (this.mobileMenu) {
         this.addClickEvent();
       }
       return this;
