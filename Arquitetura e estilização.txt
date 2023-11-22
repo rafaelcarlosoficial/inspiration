@@ -1,0 +1,126 @@
+Deixar o body com fundo estelar
+------------------------
+Arquitetura do HTML
+
+header
+section.home
+section.about
+section.crew
+section.dragon
+section.falcon
+section.timeline
+footer
+-------------------------
+
+---------------------------------------
+header
+ div
+   img
+ div
+
+nav
+  (repetir 6x)
+ ul
+  li
+    a
+  li
+nav
+
+header
+-----------------------------------------
+section.home
+	h1.
+section
+-------------------------------------------
+section.about
+ h2. Sobre Inspiration4
+ div.inspiration4Details
+  img.inspiration4
+  div.textAboutInspiration4 
+   p. (texto)
+  div
+div
+-----------------------------------------------
+section.crew
+ h2. A primeira tripulação totalmente cívil
+ div.missionMemberContainer
+repetir(4x para os 4 tripulantes)  
+div.missionMember
+   div.crewProfile
+    img.
+    span
+   div
+   p(texto)
+  div
+----------------------------------------------
+section.dragon 
+ h2. Dragon
+ div.spacecraft
+  div.videoSpacecraft
+   video
+   source
+  div
+ div.imageAndTextSpacecraft  
+  div.imageSpacecraft
+   img
+  div	
+  div.textSpacecraft
+   p
+  div
+ div
+-----------------------------------------------
+section.falcon
+ h2. Foguete Falcon9
+
+div.spacecraft
+  div.videoSpacecraft
+   video
+   source
+  div
+ div.imageAndTextSpacecraft  
+  div.imageSpacecraft
+   img
+  div	
+  div.textSpacecraft
+   p
+  div
+ div
+------------------------------------------------
+section.timeline
+h2. Linha do tempo
+
+div.timeline
+ div.checkpoint
+   div
+     h2
+     p
+   div
+ div
+------------------------------------------------
+
+Style CSS
+
+root
+colors:
+--cyan: #00FFA3;
+--lightGray: #54606F;
+--white: #FFFFFF;
+
+
+--fontSize-mobile-ttile-1: 46px
+--fontSize-mobile-title-2: 40px
+--fontSize-mobile-content: 30px
+
+--fontSize-tablet-title-1: 60px;
+--fontSize-tablet-content: 50px;
+
+--fontSize-desktop-title-1: 80px;
+--fontSize-desktop-title-2:
+--fontSize-desktop-content: 50px;
+--font-family: 'DinExp'
+
+
+
+
+
+

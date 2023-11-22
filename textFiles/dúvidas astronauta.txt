@@ -1,0 +1,38 @@
+
+O Inspiration4 marcou a primeira missão 
+totalmente civil em órbita do mundo. Comandada por 
+Jared Isaacman, fundador da Shift4 Payments, a missão 
+partiu do Centro Espacial Kennedy e viajou em órbita baixa 
+da Terra por três dias, arrecadando mais de US$ 240 milhões
+para o Hospital de Pesquisa Infantil St. Jude. Este marco 
+representou uma nova era na exploração espacial humana.
+
+DORES:
+- Quer ver potencial
+- Quer ver conhecimento técnico impecável
+- Quer coisas resumidas
+
+
+Quais são os objetivos dos recrutadores e freelancer?
+
+1. Ver seu potencial..... 
+2. Design bonitos.....
+3. Tela responsiva
+4. Arquitetura correta.
+5. Ser surpreendido
+
+Quais são meus objetivos?
+1. IMPACTAR
+2. MOSTRAR PROFISSIONALISMO E POTENCIAL
+3. Ser contratado para freela ou recrutamento
+
+IMAGEM 215X215
+
+Primeira cor: #050c28
+Segunda cor: #06164a (clara)
+Terceira cor: #0a133c
+
+
+ver depois efeito de transição quando sobe a tela que faz.
+
+Pesquisar como não usar pixels no projeto
