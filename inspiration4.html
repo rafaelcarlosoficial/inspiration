@@ -12,7 +12,7 @@
     <meta name="twitter:Criador" content="@RafaelcarlosOficial">
     <title>Inspiration4</title>
     <link rel="stylesheet" href="inspiration4.css">
-    <link rel="shortcut icon" href="images/iconInspiration4Mobile.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/Inspiration4_icon.svg.png" type="image/x-icon">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -44,8 +44,8 @@
             <p class="textPreloader">Inspiration4</p>
         </div>
     </div>
-    <header class="z-index2">
-        <a href="/" ><img style="max-width: 300px" src="images/inspirationLogo.png" alt="Logo da inspiration4" class="logo"></a>
+    <header class="z-index2" data-header>
+        <a href="#" ><img style="max-width: 250px; margin-bottom: 0.5rem;" src="images/inspirationLogo.png" alt="Logo da inspiration4" class="logo"></a>
         <nav>
             <div class="mobileMenu">
                 <div class="line line1"></div>
@@ -214,7 +214,7 @@
         <section class="timelinee" id="timelinee">
             <h2>Linha do Tempo</h2>
             <div class="timeline">
-            <div class="checkPoint" id='removeBeforeOnMobile'>
+            <div class="checkPoint" id="removeBeforeOnMobile">
                 <div class="hiddenRight"> 
                     <h3>01/02/2021</h3>
                     <p>Missão anunciada.</p>
@@ -271,12 +271,14 @@
                     </a>
                 </li>
             </ul>
-            <p id="copyright">@2023 @rafaelcarlosficial.</p>
+            <p id="copyright">@ 2023 made by rafaelcarlosoficial</p>
         </div>
     </footer>
     
-    
-    
+    <a href="#home" class="back-top-btn active" aria-label="back-to-top" data-back-top-btn>
+        <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+
     <script src="inspiration4.js"></script>
 </body>
 </html>
